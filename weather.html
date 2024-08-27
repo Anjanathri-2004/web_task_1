@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Media Page</title>
+    <style>
+        /* Responsive design for small screens */
+        @media only screen and (max-width: 1000px) {
+            table {
+                width: 50%;
+            }
+        }
+
+        /* Basic styling for the table */
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <!-- Weather Media Table -->
+    <table border="3" align="center">
+        <thead>
+            <tr>
+                <th colspan="2">Weather Media</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <!-- Video content displaying a Rainfall clip -->
+                     <p>Nature's Gift</p>
+                    <video width="300" height="200" controls loop>
+                        <source src="5174040-uhd_3840_2160_30fps.mp4" type="video/mp4">
+                    </video>
+                </td>
+                <td>
+                    <!-- Embedded video from an external source showing a dam and water overflow -->
+                     <p>Water Reservoir</p>
+                    <iframe width="300" height="200" src="https://www.shutterstock.com/shutterstock/videos/1105840253/preview/stock-footage-hydroelectric-dam-on-the-river-with-water-overflowing-the-dam-after-heavy-rain-kallarkutty-dam.webm" allowfullscreen></iframe>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <!-- Audio content playing a weather report-Indian report  -->
+                     <p>India's Weather Report</p>
+                    <audio controls>
+                        <source src="weather report.mp3" type="audio/mp3">
+                    </audio>
+                </td>
+                <td>
+                    <!-- Embedded audio from an Natioal Weather Service source on weather -->
+                     <p>West Palm Beach- Florida Weather report</p>
+                    <iframe width="300" height="200" scrolling="no" frameborder="no" allow="autoplay" src="https://www.weather.gov/media/mfl/nwr/MIAHWRWPB.mp3"></iframe>
+                    <div style="font-size: 10px; color: #cccccc; line-break: anywhere; word-break: normal; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Garuda, Verdana, Tahoma, sans-serif; font-weight: 100;">
+                        <a href="https://www.weather.gov/mfl/nwraudio" title="Ramesh76" target="_blank" style="color: #cccccc; text-decoration: none;">West Palm Beach</a> · <a href="https://www.weather.gov/mfl/nwraudio" title="National Weather Report" target="_blank" style="color: #cccccc; text-decoration: none;">Online audios</a>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2" align="center">© 2024 Weather Media Page</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
